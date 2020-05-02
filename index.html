@@ -4,16 +4,31 @@
 <head>
   <meta charset="utf-8">
   <title>Vinay Garg</title>
+
+  <!-- Css StyleSheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Favico -->
   <link rel="icon" href="favicon/favicon.ico">
+
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:wght@500&family=Sacramento&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/24cff6db77.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap script -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
   <div class="top-container">
     <img class="top-cloud" src="images/cloud.png" alt="Upper Cloud">
-    <h1 >I'm Vinay</h1>
+    <h1>I'm Vinay</h1>
     <h2 class="heading">a programmer.</h2>
     <img class="bottom-cloud" src="images/cloud.png" alt="Lower Cloud">
     <img src="images/mountain.png" alt="Mountain">
@@ -22,33 +37,60 @@
   <div class="middle-container">
     <div class="profile">
       <img src="images/circle-cropped.png" alt="Vinay Garg" height="200px" width="200px">
-      <h2>Hello.</h2>
+      <h2 style="padding-top: 40px;">Hello.</h2>
       <p class="intro">Currently, I work as a Assciate Software Engineer at United Health Group. I am currently on a project named as CAMS written on Java and Spring. </p>
     </div>
     <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="Images" src="images/Java-Logo.png" alt="">
-        <img class="Images" src="images/Spring.png" alt="">
-        <img class="Images" src="images/Spring-Boot.png" alt="">
-        <img class="Images" src="images/Spring-MVC.png" alt=""><br />
-        <img class="Images" src="images/REST.png" alt="">
-        <img class="Images" src="images/MySQL.png" alt="">
-        <img class="Images" src="images/Html.png" alt="">
-        <img class="Images" src="images/Css.png" alt="">
+    <div class="container-fluid" style="  background-color: #effcef; padding: 50px 0 50px 0;">
+      <div class="skills">
+        <h2 style="padding-bottom:60px;">My Skills.</h2>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3" style="padding-bottom: 20px;">
+            <img class="Images" src="images/Java-Logo.png" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3" style="padding-bottom: 20px;">
+            <img class="Images" src="images/Spring.png" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3" style="padding-bottom: 20px;">
+            <img class="Images" src="images/Spring-Boot.png" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3" style="padding-bottom: 20px;">
+            <img class="Images" src="images/Spring-MVC.png" alt=""><br />
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3">
+              <img class="Images" src="images/REST.png" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3">
+              <img class="Images" src="images/MySQL.png" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3">
+              <img class="Images" src="images/Html.png" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3">
+              <img class="Images" src="images/Css.png" alt="">
+          </div>
+        </div>
       </div>
     </div>
     <hr>
+
     <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <a class="myButton" href="mailto:Vinaygarg712@gmail.com">CONTACT ME</a>
+      <h2 style="padding-bottom:30px;">Get In Touch</h2>
+      <a class="btn btn-md btn-info" href="mailto:Vinaygarg712@gmail.com">CONTACT ME</a>
     </div>
   </div>
 
 
   <div class="bottom-container">
-    <a class="footer-link" href="https://in.linkedin.com/in/vinay-garg-5a3459118">LinkedIn</a>
+    <div class="icons">
+
+      <a href="https://www.facebook.com/profile.php?id=100003506698425"><i class="fab fa-facebook-f icons"></i></a>
+      <a href="https://www.instagram.com/vinnie_garg1/?hl=en"><i class="fab fa-instagram icons"></i></a>
+      <a href="mailto:Vinaygarg712@gmail.com"><i class="fas fa-envelope icons"></i></a>
+      <a href="https://in.linkedin.com/in/vinay-garg-5a3459118"><i class="fab fa-linkedin"></i></a>
+
+    </div>
+
     <p class="copyright">© 2020 Vinay Garg.</p>
   </div>
 
